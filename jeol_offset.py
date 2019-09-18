@@ -43,7 +43,7 @@ def letter_to_dist(letters_in):
     grid_vals = range(0, 5001, 500)
     letters = 'ACEGIKMOQS'
 
-    x_let, y_let = letters_in
+    y_let, x_let = letters_in
     if x_let not in letters or y_let not in letters:
         raise ValueError('incorrect letter')
 
